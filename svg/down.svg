@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 854 120" preserveAspectRatio="none" width="100%" height="120" aria-hidden="true" role="img" style="display:block">
+  <style>
+    /* Couleurs des vagues (adaptées au thème) */
+    :root { --wave1: #3498db; --wave2: #13659c; }
+    @media (prefers-color-scheme: dark) {
+      :root { --wave1: #1f6feb; --wave2: #0a3069; }
+    }
+  </style>
+
+  <path fill="var(--wave1)" opacity="0.4"
+        d="M0 120 L0 80 Q213.5 40 427 70 T854 45 L854 120 Z">
+    <animate attributeName="d" dur="20s" repeatCount="indefinite"
+             keyTimes="0;0.333;0.667;1" calcMode="spline"
+             keySplines="0.2 0 0.2 1;0.2 0 0.2 1;0.2 0 0.2 1"
+             values="
+             M0 120 L0 80 Q213.5 40 427 70 T854 45 L854 120 Z;
+             M0 120 L0 55 Q213.5 40 427 60 T854 70 L854 120 Z;
+             M0 120 L0 35 Q213.5 65 427 35 T854 70 L854 120 Z;
+             M0 120 L0 80 Q213.5 40 427 70 T854 45 L854 120 Z" />
+  </path>
+
+  <path fill="var(--wave2)" opacity="0.4"
+        d="M0 120 L0 65 Q213.5 20 427 50 T854 40 L854 120 Z">
+    <animate attributeName="d" dur="20s" repeatCount="indefinite" begin="-10s"
+             keyTimes="0;0.333;0.667;1" calcMode="spline"
+             keySplines="0.2 0 0.2 1;0.2 0 0.2 1;0.2 0 0.2 1"
+             values="
+             M0 120 L0 65 Q213.5 20 427 50 T854 40 L854 120 Z;
+             M0 120 L0 50 Q213.5 80 427 80 T854 60 L854 120 Z;
+             M0 120 L0 55 Q213.5 75 427 50 T854 35 L854 120 Z;
+             M0 120 L0 65 Q213.5 20 427 50 T854 40 L854 120 Z" />
+  </path>
+</svg>
