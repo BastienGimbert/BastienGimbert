@@ -5,7 +5,7 @@
 </a>
 
 > Welcome to my GitHub profile!  
-> I am doing a work-study program at Atos : Innolab (Innovation Laboratory) and B.U.T in computer Science at IUT2 Grenoble.  
+> I am doing a work-study program at Atos: Innolab (Innovation Laboratory) and pursuing a Master's Degree in Computer Science  (Networks, Systems and Cybersecurity) at Ensimag.
 > I’m a full-stack developer and freelancer with a strong interest in blockchain and cybersecurity.  
 > Here you’ll find personal projects, proof-of-concepts, and open-source contributions.  
 > ➡️ Unfortunately, I keep many of my projects private for security and confidentiality reasons.  
